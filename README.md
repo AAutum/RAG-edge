@@ -60,6 +60,9 @@ Raspberry Pi 5 with Debian GNU/Linux 13 (trixie)
 Secondary node is a second Raspberry Pi 5 with the AI HAT+ 2.
 
 Run `export RAG_WORKSPACE="/path/to/rag/"` on the primary node if you'll use this by itself. 
+
 Otherwise it'll default to `~/.openclaw/workspace/rag/corpus/` for OpenClaw agents.
+
 Change the IP, port, and HAILO_model to match your endpoint in `rag_core.py`.
+
 Use `python rag_ingest.py --all` to ingest your documents 
